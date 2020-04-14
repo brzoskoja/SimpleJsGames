@@ -1,6 +1,10 @@
+html{
+    text-align: center;
+}
 .grid{
+    margin: auto;
     display: grid;
-    width: 60px;
+    width: 600px;
     grid-template-columns: 200px 200px 200px;
     column-gap: 7px;
     row-gap: 3px;
@@ -13,4 +17,7 @@
 }
 .mole{
     background-image: url("mole.png");
+}
+button{
+    margin: auto;
 }

@@ -1,6 +1,8 @@
 const timeLeft = document.querySelector("#timeLeft");
 const score = document.querySelector("#score");
 const allFields = document.querySelectorAll(".field");
+const restarButton = document.querySelector("#restart");
+
 let molesHit = 0;
 let timeToPlay = 30;
 randomMole();
@@ -36,7 +38,7 @@ function countDown(){
         clearInterval(mainTimer);
         clearInterval(moleTimer);
         clearFields();
+        restarButton.hidden = false;     
         alert("Game Over. Your score is " + molesHit);
-
     }
 }
