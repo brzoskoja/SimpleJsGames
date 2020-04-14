@@ -1,0 +1,7 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    flex-wrap: wrap;
+    row-gap:3px ;
+    column-gap: 3px;
+}
